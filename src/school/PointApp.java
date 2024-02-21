@@ -10,10 +10,10 @@ public class PointApp {
        System.out.println(bod1.distanceFrom(bod2));
        //bod2.distanceFrom(bod1);
        //System.out.println(bod1.x);
-        System.out.println(bod1.getX());
-        System.out.println(bod1);
+       System.out.println(bod1.getX());
+       System.out.println(bod1); //automaticky vola toString()
         
-        System.out.println(PointTools.distanceFrom(bod1, bod2));
+       System.out.println(PointTools.distanceFrom(bod1, bod2));
     }
     
 }
